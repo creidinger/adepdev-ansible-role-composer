@@ -1,0 +1,22 @@
+---
+dependencies: []
+
+galaxy_info:
+  role_name: composer
+  author: Chase Reidinger
+  description: Composer install for Debian/Ubuntu
+  company: "AdepDev, LLC"
+  license: license (MIT)
+  min_ansible_version: 2.4
+
+  platforms:
+  - name: Debian
+    versions:
+    - all
+  - name: Ubuntu
+    versions:
+    - all
+
+    galaxy_tags:
+    - packaging
+    - web
